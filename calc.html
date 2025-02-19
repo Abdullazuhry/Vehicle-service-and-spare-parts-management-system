@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABD_AB24 GPA Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+  
+  <div class="container">
+    <h1>GPA Calculator</h1>
+    <form id="gpa-form">
+      <div id="grade-inputs">
+        <div class="input-row">
+          <input type="text" class="grade" placeholder="Grade (e.g., A)" required>
+          <input type="number" class="credit" placeholder="Credit (e.g., 3)" required>
+          <button type="button" class="remove-btn">Remove</button>
+        </div>
+      </div>
+      <button type="button" id="add-row-btn">Add Another Course</button>
+      <button type="button" id="calculate-btn">Calculate GPA</button>
+    </form>
+    <div id="result" class="result"></div>
+  </div>
+  <footer class="footer">
+    <p>&copy; 2025 ABD_AB24 Platform. All Rights Reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
